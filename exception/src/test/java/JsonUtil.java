@@ -11,7 +11,7 @@ public class JsonUtil {
     try {
       return objectMapper.writeValueAsString(object);
     } catch (Exception e) {
-      return e.getMessage();
+      return null;
     }
   }
 }
